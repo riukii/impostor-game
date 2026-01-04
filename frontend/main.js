@@ -1,7 +1,7 @@
 const log = msg =>
   document.getElementById("log").textContent += msg + "\n";
 
-const socket = io("https://YOUR_SERV00_DOMAIN", {
+const socket = io("https://riukii.alwaysdata.net", {
   transports: ["websocket"]
 });
 
